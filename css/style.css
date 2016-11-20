@@ -211,11 +211,13 @@ nav li a:hover {
 }
 
 .sns .flexbox {
-  /* ??? */
+  display: -webkit-flex;
+  display: flex;
 }
 
 .sns .flexbox .icon {
-  /* ??? */
+  -webkit-flex-grow: 1;
+  flex-grow:         1;
 }
 
 .sns img {
