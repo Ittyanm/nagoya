@@ -33,6 +33,7 @@ body {
 */
 
 header {
+  height: 50px;
   position: fixed;
   top: 0;
   left: 0;
@@ -51,12 +52,12 @@ nav .logo {
 }
 
 nav ul {
-  /* ??? */
-  /* ??? */
+  display: block;
+  float: right;
 }
 
 nav li {
-  /* ??? */
+  display: inline-block;
 }
 
 nav a {
@@ -65,7 +66,7 @@ nav a {
   font-size: 18px;
   color: #000;
   line-height: 21px;
-  /* ??? */
+  float: left;
 }
 
 nav li a:hover {
