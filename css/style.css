@@ -113,26 +113,39 @@ nav li a:hover {
 */
 
 .row {
-  /* ??? */
-  /* ??? */
+  width: 900px;
+  overflow: hidden;
+}
+
+.row:after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
 .col-4 {
-  /* ??? */
-  /* ??? */
-  /* ??? */
+  width: 600px;
+  padding: 5px;
+  float: left;
 }
 
 .col-2 {
-  /* ??? */
-  /* ??? */
-  /* ??? */
+  width: 300px;
+  padding: 5px;
+  float: left;
 }
 
 .col-1 {
-  /* ??? */
-  /* ??? */
-  /* ??? */
+  width: 150px;
+  padding: 5px;
+  float: left;
+}
+
+/*
+  画像を丸く
+*/
+.img-circle {
+  border-radius: 50%;
 }
 
 
